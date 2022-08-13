@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simple-app-argocd
+  template:
+    metadata:
+      labels:
+        app: simple-app-argocd
+    spec:
+      containers:
+      - name: httpbin
+        image: docker.io/ubuntu/nginx
+        imagePullPolicy: Always
+        
+        ports:
+        - containerPort: 8080
