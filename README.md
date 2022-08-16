@@ -1,1 +1,3 @@
-to update to deploy  ubuntu/nginx:1.18-22.04_beta port:80
+
+Blue-green
+Update to deploy  ubuntu/nginx:1.18-22.04_beta port:80
