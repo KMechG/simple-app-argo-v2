@@ -30,8 +30,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: docker.io/ubuntu/nginx:1.18-22.04_beta
+        image: docker.io/karydock/k8s-web-hello:2.0.0
         ports:
         - name: http
-          containerPort: 80
+          containerPort: 3000
           protocol: TCP
