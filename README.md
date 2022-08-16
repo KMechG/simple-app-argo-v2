@@ -1,3 +1,3 @@
 
 Blue-green
-Update to deploy  ubuntu/nginx:1.18-22.04_beta port:80
+Update to deploy  ubuntu/nginx:1.18-22.04_beta containerport:80
