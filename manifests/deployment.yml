@@ -14,7 +14,7 @@ spec:
         app: simple-app-argocd
     spec:
       containers:
-      - name: httpbin
+      - name: nginx
         image: docker.io/ubuntu/nginx
         imagePullPolicy: Always
         
