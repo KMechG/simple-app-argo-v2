@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: docker.io/ubuntu/nginx:1.18-22.04_beta
+        image: docker.io/ubuntu/nginx:1.18-21.10_beta
         ports:
         - name: http
           containerPort: 80
