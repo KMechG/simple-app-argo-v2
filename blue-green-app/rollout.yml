@@ -29,7 +29,7 @@ spec:
         app: simple-app-argocd
     spec:
       containers:
-      - name: httpbin
+      - name: nginx
         image: docker.io/ubuntu/nginx:1.18-22.04_beta
         ports:
         - name: http
