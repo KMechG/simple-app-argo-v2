@@ -13,7 +13,7 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/KMechG/simple-app-argocd-v2.git
+    repoURL: https://github.com/KMechG/simple-app-argo-v2
     targetRevision: HEAD
     path: ./manifests
    
