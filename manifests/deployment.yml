@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: docker.io/karydock/k8s-web-hello:2.0.0
+        image: docker.io/karydock/k8s-web-hello:1.0.0
         imagePullPolicy: Always
         
         ports:
