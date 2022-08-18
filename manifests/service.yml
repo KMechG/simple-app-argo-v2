@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: simple-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: simple-app-argocd
   ports:
-      - nodePort: 31000
+      - targetPort: 3000
         protocol: TCP
         port: 8080
